@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Robert William Thompson – Educator, Reader, Poet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+<nav aria-label="Main">
+ <div class="wrap">
+  <button id="menu" aria-expanded="false" aria-controls="links">Menu</button>
+  <div class="links" id="links">
+   <a href="#home">Home</a><a href="#about">About</a><a href="#interests">Interests</a><a href="#career">Career</a>
+   <a class="hire" href="#contact">Get in touch</a>
+   <button id="theme" type="button" aria-label="Switch light or dark theme">Theme</button>
+  </div>
+ </div>
+</nav>
+
+<header class="hero" id="home">
+ <div class="wrap">
+  <div class="left">
+   <p class="hi">Hello, I am</p>
+   <h1>Robert<br>Thompson</h1>
+   <div class="hero-card">
+    <p>A retired English Literature and History teacher, still reading, writing and sharing what I know.</p>
+    <a class="btn" href="#about">Read my story</a>
+   </div>
+  </div>
+  <div class="portrait"><img src="images/robert.jpg" alt="Portrait of Robert William Thompson in a cream jacket and green shirt, standing in a greenhouse garden"></div>
+ </div>
+</header>
+
+<div class="marq" aria-hidden="true"><div class="track"><span>English Literature</span><span>History</span><span>Poetry</span><span>Chess</span><span>Gardening</span><span>Travel</span><span>English Literature</span><span>History</span><span>Poetry</span><span>Chess</span><span>Gardening</span><span>Travel</span></div></div>
+
+<section class="about" id="about">
+ <div class="wrap">
+  <div class="tag">About me</div>
+  <p class="big">I taught English Literature and History for 42 years. I believe patience and discipline turn curious students into confident thinkers. <span>Today I spend my time with books, gardens, chess boards and poems, and I still enjoy guiding young minds.</span></p>
+ </div>
+ <div class="wrap">
+  <div class="stats">
+   <div class="stat"><b data-count="42">0</b><small>Years of<br>teaching</small></div>
+   <div class="stat"><b data-count="2">0</b><small>Subjects<br>taught</small></div>
+   <div class="stat"><b data-count="5">0</b><small>Lifelong<br>interests</small></div>
+   <div class="stat"><b data-count="1">0</b><small>Master's degree<br>in Education</small></div>
+  </div>
+ </div>
+</section>
+
+<section class="work" id="interests">
+ <div class="wrap">
+  <div class="head"><div class="tag">Interests</div><h2>What fills my days after the classroom</h2></div>
+  <article class="row rv"><div><span class="pill">Reading</span><h3>Historical books</h3><p>Biographies and histories that bring the past into the present, the same stories I once shared with my students.</p></div><div class="art a1" aria-hidden="true">R</div></article>
+  <article class="row rv"><div><span class="pill">Gardening</span><h3>The garden</h3><p>Slow, patient work that rewards attention, much like teaching.</p></div><div class="art a2" aria-hidden="true">G</div></article>
+  <article class="row rv"><div><span class="pill">Travelling</span><h3>Travel</h3><p>Seeing the places I taught about and learning from the people who live there.</p></div><div class="art a3" aria-hidden="true">T</div></article>
+  <article class="row rv"><div><span class="pill">Chess</span><h3>Playing chess</h3><p>A quiet game of strategy and foresight.</p></div><div class="art a4" aria-hidden="true">C</div></article>
+  <article class="row rv"><div><span class="pill">Writing</span><h3>Poetry</h3><p>Writing poems, a craft I carried over from teaching literature.</p></div><div class="art a5" aria-hidden="true">P</div></article>
+ </div>
+</section>
+
+<section class="career" id="career">
+ <div class="wrap">
+  <h2>A career in the classroom</h2>
+  <div class="tl">
+   <div class="rv"><small>42 years of teaching</small><h3>Senior Teacher, Lincoln International High School</h3><p>Taught English Literature and History, and was known for wisdom, patience, discipline and dedication to education.</p></div>
+   <div class="rv"><small>Education</small><h3>Master's Degree in Education</h3><p>The foundation for a lifetime of teaching and guiding young generations.</p></div>
+   <div class="rv"><small>Today</small><h3>Retired, still learning</h3><p>Reading historical books, gardening, travelling, playing chess and writing poetry.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <div class="wrap">
+  <div>
+   <h2>Let's talk</h2>
+   <ul>
+    <li><small>Email</small><a href="mailto:robert.thompson@example.com">robert.thompson@example.com</a></li>
+    <li><small>Phone</small><a href="tel:+12025550136">+1 202-555-0136</a></li>
+    <li><small>Location</small>Boston, Massachusetts, USA</li>
+   </ul>
+  </div>
+  <form id="form" novalidate>
+   <label>Your name<input id="n" name="name" autocomplete="name" required></label>
+   <label>Your email<input id="e" name="email" type="email" autocomplete="email" required></label>
+   <label>Message<textarea id="m" name="message" required></textarea></label>
+   <button class="btn" type="submit">Send message</button>
+   <div id="msg" role="status"></div>
+  </form>
+ </div>
+</section>
+</div>
+<footer>© <span id="yr">2026</span> Robert William Thompson</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
